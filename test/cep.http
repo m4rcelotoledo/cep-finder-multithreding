@@ -1,0 +1,25 @@
+### Teste BrasilAPI - CEP São Paulo
+GET https://brasilapi.com.br/api/cep/v1/01153000
+
+### Teste BrasilAPI - CEP Rio de Janeiro
+GET https://brasilapi.com.br/api/cep/v1/20040020
+
+### Teste BrasilAPI - CEP Brasília
+GET https://brasilapi.com.br/api/cep/v1/70040901
+
+### Teste BrasilAPI - CEP Inválido
+GET https://brasilapi.com.br/api/cep/v1/00000000
+
+###
+
+### Teste ViaCEP - CEP São Paulo
+GET http://viacep.com.br/ws/01153000/json/
+
+### Teste ViaCEP - CEP Rio de Janeiro
+GET http://viacep.com.br/ws/20040020/json/
+
+### Teste ViaCEP - CEP Brasília
+GET http://viacep.com.br/ws/70040901/json/
+
+### Teste ViaCEP - CEP Inválido
+GET http://viacep.com.br/ws/00000000/json/
