@@ -21,10 +21,11 @@ jobs:
       - name: Instalar dependências
         run: go mod download
 
-      - name: Rodar Lint
-        uses: golangci/golangci-lint-action@v4
-        with:
-          version: v1.55.2
+      # Can't run linter goanalysis_metalinter: buildir: failed to load package goarch: could not load export data: internal error in importing \"internal/goarch\" (unsupported version: 2);
+      # - name: Rodar Lint
+      #   uses: golangci/golangci-lint-action@v4
+      #   with:
+      #     version: v1.55.2
 
       - name: Rodar Testes
         run: go test -v ./...
